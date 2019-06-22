@@ -12,6 +12,7 @@ namespace TareaRepositorio.Entidades
         [Key]
         public int IdCargo { get; set; }
         public string Nombre { get; set; }
+
         public int IdEstado { get; set; }
 
         public Cargos()
